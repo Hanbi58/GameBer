@@ -8,6 +8,10 @@ const GameInput = (props) => {
   const cartCtx = useContext(CartContext);
   const addNewItemToCartHandler = (e) => {
     e.preventDefault();
+    if (inputRef.current.value < 1) {
+      inputRef.current.value = 1;
+      return;
+    }
     const newItem = {
       name: props.game.name,
       id: id,
