@@ -6,8 +6,8 @@ const FooterPartners = () => {
       <div className={classes.container}>
         <div className={classes.steam}></div>
         <div className={classes.epic}></div>
-        <div className={classes.xbox}></div>
-        <div className={classes.playstation}></div>
+        <div className={classes.nvidia}></div>
+        <div className={classes.intel}></div>
       </div>
     </div>
   );

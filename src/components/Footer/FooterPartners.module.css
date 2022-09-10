@@ -16,16 +16,16 @@
   background-size: cover;
 }
 .steam {
-  background-image: url("https://icones.pro/wp-content/uploads/2022/05/icone-steam-orange.png");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png");
 }
 .epic {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1764px-Epic_Games_logo.svg.png");
 }
-.xbox {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/1024px-Xbox_one_logo.svg.png");
+.nvidia {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/235_Nvidia_logo-512.png");
 }
-.playstation {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1200px-Playstation_logo_colour.svg.png");
+.intel {
+  background-image: url("https://ucsdnews.ucsd.edu/news_uploads/intel-logo-3-1.png");
 }
 
 @media (max-width: 800px) {
