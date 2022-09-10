@@ -24,7 +24,7 @@ const Footer = () => {
         fifth="My Wishlist"
       />
       <FooterContent
-        sTitle="Inside Gameber"
+        sTitle="Inside GameBer"
         first="About Us"
         second="Subscribe"
         third="Why Gameber"
