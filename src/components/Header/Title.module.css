@@ -35,6 +35,9 @@
   .para {
     font-size: 2rem;
   }
+  .title {
+    top: -200px;
+  }
 }
 @media (max-width: 600px) {
   .para {
