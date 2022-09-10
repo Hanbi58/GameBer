@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #0b0c10;
+}
+
+colorPlete {
+  color: #0b0c10;
+  color: #1f2833;
+  color: #c5c6c7;
+  color: #66fcf1;
+  color: #45a29e;
+}

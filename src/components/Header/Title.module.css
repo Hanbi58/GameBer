@@ -1,0 +1,48 @@
+.para {
+  font-size: 3rem;
+  letter-spacing: 8px;
+
+  font-family: "Monoton", cursive;
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #0ff,
+    0 0 20px #0ff, 0 0 20px #0ff, 0 0 25px #0ff, 0 0 40px #0ff;
+}
+
+.title {
+  position: relative;
+  top: -300px;
+  text-align: center;
+}
+.aside {
+  color: #66fcf1;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 2px #fff, 0 0 2px #0ff,
+    0 0 2px #0ff, 0 0 2px #0ff, 0 0 2px #0ff, 0 0 4px #0ff;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  padding: 0 2rem;
+  width: 100%;
+  bottom: -180px;
+  font-weight: 100;
+  transition: color 0.3s ease-in-out;
+}
+
+.aside:hover {
+  color: #b9fffa;
+}
+
+@media (max-width: 800px) {
+  .para {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .para {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .para {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,17 @@
+.box {
+  margin-left: 1rem;
+  position: relative;
+  left: 6rem;
+}
+
+.price {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .box {
+    left: 0;
+  }
+}

@@ -1,0 +1,39 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.container div {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+.steam {
+  background-image: url("https://icones.pro/wp-content/uploads/2022/05/icone-steam-orange.png");
+}
+.epic {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1764px-Epic_Games_logo.svg.png");
+}
+.xbox {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/1024px-Xbox_one_logo.svg.png");
+}
+.playstation {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1200px-Playstation_logo_colour.svg.png");
+}
+
+@media (max-width: 800px) {
+  .box {
+    margin: 0 30px;
+  }
+  .container {
+    height: 200px;
+    width: 200px;
+  }
+}

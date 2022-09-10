@@ -1,0 +1,23 @@
+.footerMain {
+  color: #f0fffe;
+  border-top: 2px solid #f0fffe;
+  margin-top: 4rem;
+  padding: 2rem 10vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.content {
+  margin: 0 30px;
+}
+
+.footerMain p {
+  color: #e9fffeda;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 800px) {
+  .footerMain {
+    justify-content: flex-start;
+  }
+}

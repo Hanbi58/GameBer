@@ -1,0 +1,109 @@
+.frm {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  position: relative;
+  right: 150px;
+}
+
+.frm label {
+  color: #66fcf1;
+  font-size: 1.2rem;
+  transform: translateY(6px);
+}
+
+.frm input {
+  all: unset;
+  background-color: #66fcf1;
+  color: #0b0c10;
+  width: 120px;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.frm input:focus {
+  background-color: #b9fffa;
+}
+
+.frm button {
+  background-color: transparent;
+  border: 2px solid #66fcf1;
+  display: flex;
+  width: 120px;
+  color: #66fcf1;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s linear;
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.frm button:hover {
+  transform: translateY(-6px);
+  color: #b9fffa;
+  border: 2px solid #b9fffa;
+  box-shadow: 0 3px 3px #b9fffa;
+  background-color: #66fcf222;
+}
+
+@media (min-width: 800px) {
+  .frm input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    width: 12px;
+    color: white;
+    text-align: center;
+    position: absolute;
+  }
+  .frm input:hover::-webkit-inner-spin-button {
+    background: rgba(238, 238, 238, 0) url("http://i.stack.imgur.com/YYySO.png")
+      no-repeat 80% 80%;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    color: white;
+    position: absolute;
+    right: 4px;
+    border-radius: 28px;
+    top: 8px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .frm {
+    right: 0;
+  }
+}
+@media (max-width: 800px) {
+  .frm {
+    flex-wrap: nowrap;
+  }
+
+  .frm input::-webkit-inner-spin-button,
+  .frm input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .frm label {
+    display: none;
+  }
+
+  .frm button {
+    margin-right: 0;
+  }
+}

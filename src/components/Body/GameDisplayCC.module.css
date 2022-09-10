@@ -1,0 +1,36 @@
+.gameDisplay {
+  width: 90vw;
+  max-width: 1600px;
+  height: 300px;
+  margin: auto;
+  /* background-color: red; */
+  border-radius: 9px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 3rem;
+  color: white;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gameDisplay::after {
+  content: "";
+  background: #0b0c10;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 800px) {
+  .gameDisplay {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
